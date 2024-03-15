@@ -28,7 +28,7 @@ begin
 			temp := temp or input(i);
 		end loop;
 		
-		output <= temp;
+		output <= not(temp);
 		
 		
 	end process;
